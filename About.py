@@ -33,11 +33,11 @@ st.markdown(
 
 st.sidebar.success("About")
 
-col1, spacer, col2 = st.columns([1, 0.1, 1])
+col1, spacer, col2 = st.columns([1, 0.2, 1])
 
 with col1:
     # Display the image in Streamlit
-  st.image('picture1.jpg',  width=950, caption='Image by macrovector on Freepik')
+  st.image('picture1.jpg',  width=700, caption='Image by macrovector on Freepik')
 
 with spacer:
     st.write("")
