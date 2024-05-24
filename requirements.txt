@@ -1,5 +1,5 @@
 pandas
-plotly_express
+plotly
 joblib
 streamlit
 numpy
