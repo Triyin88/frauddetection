@@ -1,0 +1,9 @@
+pandas
+joblib
+matplotlib
+plotly
+streamlit
+numpy
+millify
+streamlit-extras
+xgboost

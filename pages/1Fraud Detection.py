@@ -28,13 +28,14 @@ import numpy as np
 import pandas as pd
 import time
 import warnings
-warnings.filterwarnings('ignore')
 import plotly.express as px
+warnings.filterwarnings('ignore')
 from joblib import load
 import streamlit as st
+import os
 
-# load model
-@st.cache_resource
+
+# Load model
 def run_model():
    BBC=load("BBC.model")
    return BBC
