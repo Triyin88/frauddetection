@@ -8,3 +8,4 @@ millify
 streamlit-extras
 pickle
 xgboost
+BalancedBaggingClassifier
