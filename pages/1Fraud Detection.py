@@ -37,26 +37,10 @@ import os
 
 # Load model
 def run_model():
-    current_dir = os.getcwd()
-    model_path = os.path.join(current_dir, "BBC.model")
-    
-    # Print current working directory
-    print(f"Current directory: {current_dir}")
-    
-    # List files in the current directory
-    print(f"Files in the current directory: {os.listdir(current_dir)}")
-    
-    # Check if the model file exists
-    if not os.path.exists(model_path):
-        raise FileNotFoundError(f"Model file not found at path: {model_path}")
-    
-    # Load the model
-    BBC = joblib.load(model_path)
-    return BBC
+   BBC=load("frauddetection/BBC.model")
+   return BBC
 
-# Load the model
 model = run_model()
-print("Model loaded successfully")
 
 # Define function for enter data manually
 def manual_data():
