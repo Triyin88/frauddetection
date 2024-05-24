@@ -1,0 +1,10 @@
+pandas
+plotly.express
+joblib
+streamlit
+numpy
+millify
+streamlit_extras
+plotly.graph_objects
+warnings
+time
