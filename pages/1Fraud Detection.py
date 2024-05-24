@@ -37,8 +37,9 @@ import os
 
 # Load model
 def run_model():
-   BBC=load("frauddetection/BBC.model", "rb")
-   return BBC
+   BBC=load("frauddetection/BBC.model")
+   with open(BBC, mode='rb') as BBC:
+     return BBC
 
 model = run_model()
 
