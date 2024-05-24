@@ -29,7 +29,6 @@ import pandas as pd
 import time
 import warnings
 warnings.filterwarnings('ignore')
-import plotly.express as px
 from joblib import load
 import streamlit as st
 
