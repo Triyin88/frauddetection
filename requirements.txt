@@ -3,6 +3,6 @@ joblib
 streamlit
 numpy
 millify
-streamlit_extras
+streamlit-extras
 warnings
 time
