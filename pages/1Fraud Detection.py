@@ -30,7 +30,7 @@ import time
 import warnings
 import plotly.express as px
 warnings.filterwarnings('ignore')
-from joblib import load
+import joblib
 import streamlit as st
 
 # load model
