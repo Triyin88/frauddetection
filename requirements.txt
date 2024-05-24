@@ -6,4 +6,4 @@ streamlit
 numpy
 millify
 streamlit-extras
-sklearn
+xgboost
