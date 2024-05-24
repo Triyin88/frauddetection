@@ -36,12 +36,7 @@ import pickle
 
 
 # Load model
-@st.cache_resource
-def run_model():
-   BBC=pickle.load(open("BBC_model.sav", "rb"))
-   return BBC
-
-model = run_model()
+model=pickle.load(open("BBC_model.sav", "rb"))
 
 # Define function for enter data manually
 def manual_data():
