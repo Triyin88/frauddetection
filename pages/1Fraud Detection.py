@@ -34,7 +34,6 @@ from joblib import load
 import streamlit as st
 
 # load model
-@st.cache_resource
 def run_model():
    BBC=load("BBC.model")
    return BBC
