@@ -32,12 +32,13 @@ import plotly.express as px
 warnings.filterwarnings('ignore')
 from joblib import load
 import streamlit as st
-import os
+import pickle
 
 
 # Load model
+@st.cache_resource
 def run_model():
-   BBC=load("BBC.model")
+   BBC=pickle.load(open("BBC_model.sav", "rb")
    return BBC
 
 model = run_model()
