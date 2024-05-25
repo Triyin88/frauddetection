@@ -36,7 +36,11 @@ import pickle
 
 
 # Load model
-model=pickle.load(open("BBC_model.sav", "rb"))
+def run_model():
+   BBC=load("BBC.model")
+   return BBC
+
+model = run_model()
 
 # Define function for enter data manually
 def manual_data():
